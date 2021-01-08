@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
+//marouane test
+
 Route::get('/', function () {
     if (Auth::check()) {
         return Redirect::to('home');
